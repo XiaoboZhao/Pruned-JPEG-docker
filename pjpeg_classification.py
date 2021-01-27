@@ -159,9 +159,6 @@ MSE = SSE / len(x)
 SST = np.sum((y - np.mean(y)) ** 2)
 R_square = 1 - SSE / SST
 sigma = np.sqrt(np.sum((y - np.mean(y)) ** 2)/len(y))
-# a = max(prob_pjpeg)
-print(MSE)
-
 
 plt.figure(3)
 plt.plot(x_data, [prob_fjpeg[0]]*len(x_data), 'b-', label='Full JPEG')
