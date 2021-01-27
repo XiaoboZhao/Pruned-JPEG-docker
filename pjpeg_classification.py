@@ -75,7 +75,7 @@ pjpeg_image_size = np.zeros([image_number, 64])
 fjpeg_image_size = []
 
 for (x, image_path) in enumerate(images):
-    print("No." + str(counter) + " image of " + str(image_number))
+    print("No." + str(counter) + " of total " + str(image_number) + " images is processed")
 
     # load the input image from disk
     image = cv2.imread(image_path)
