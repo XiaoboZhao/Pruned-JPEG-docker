@@ -33,8 +33,8 @@ Files to build Docker image for pruned JPEG classification
     
     In the terminal, `No.x of total n images is processed` will indicate which image is being processed. After all `n` images are processed, the results will be shown in three figures.
     
-    `Fig. 1` shows the inference accuracy of pruned JPEG images when pruning 0 to 64 DCT coefficients, and that of full JPEG images.
+    `Fig. 1` shows the inference accuracy of pruned JPEG images when pruning 1 to 64 DCT coefficients, and that of full JPEG images.
     
-    `Fig. 2` shows the image size of pruned JPEG images when pruning 0 to 64 DCT coefficients, and that of full JPEG images.
+    `Fig. 2` shows the image size of pruned JPEG images when pruning 1 to 64 DCT coefficients, and that of full JPEG images.
     
     `Fig. 3` shows the relationship between the inference accuracy and the normalized pruned JPEG image size, and the fitted curve.
