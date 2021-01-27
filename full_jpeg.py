@@ -13,7 +13,7 @@ import glob
 import os
 
 # Input image folder
-IM_DIR = 'test_images'
+IM_DIR = 'test_images_original'
 
 # Get path to current working directory
 CWD_PATH = os.getcwd()
@@ -21,7 +21,7 @@ PATH_TO_IMAGES = os.path.join(CWD_PATH, IM_DIR)
 images = glob.glob(PATH_TO_IMAGES + '/*')
 
 # Output image folder
-OUT_DIR = 'test_images'
+OUT_DIR = 'test_images_fjpeg'
 B = 8
 
 for (x, image_path) in enumerate(images):
