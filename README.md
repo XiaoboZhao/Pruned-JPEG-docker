@@ -31,7 +31,7 @@ Files to build Docker image for pruned JPEG classification
     ```
     This command will run the `pruned-jpeg` image interactively.
     
-    In the terminal, `No.x of total n images is processed` will indicate which image is being processed. After all `n` images are processed, the results will be shown in three figures.
+    In the terminal, `No.x of total n images is being processed` will indicate which image is being processed. After all `n` images are processed, the results will be shown in three figures.
     
     `Fig. 1` shows the inference accuracy of pruned JPEG images when pruning 1 to 64 DCT coefficients, and that of full JPEG images.
     
